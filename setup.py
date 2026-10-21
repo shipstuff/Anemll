@@ -5,6 +5,7 @@ setup(
     version="0.3.3",
     packages=find_packages(),
     install_requires=[
+        "certifi>=2026.10.19",
         "coremltools>=9.0",    # Required for Apple Neural Engine conversion
         "numpy>=1.24.0",       # Needed for tensor operations
         "tqdm>=4.66.0",        # Progress bars for large conversions
